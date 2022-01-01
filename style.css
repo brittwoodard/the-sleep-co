@@ -7,6 +7,9 @@
 /* Temporary Styles for structural html */
 * {
     padding: 0.5rem;
+}
+
+section {
     border: 1px solid rgb(220, 220, 220)
 }
 

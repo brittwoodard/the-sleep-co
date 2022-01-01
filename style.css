@@ -25,6 +25,15 @@ body {
     color: #192637;
 }
 
+header {
+    background-image: url('/images/sleep-co-white.jpg');
+}
+
+header h3 {
+    font-size: 5rem;
+    line-height: 1em;
+}
+
 /* These are our Image Styles */
 .bg-image {
     background-image: url(/images/sleep-co-dark.jpg);
@@ -36,6 +45,7 @@ body {
 .padded {padding: 5%;}
 .padded-sm {padding: 1rem;}
 
+/* Text classes */
 .text-left {text-align: left;}
 .text-center {text-align: center;}
 .text-right {text-align: right;}
@@ -44,3 +54,15 @@ body {
     background-color: #192637;
     color: white;
 }
+
+.featured-text {color: #FFBE00;}
+
+.weight-x-light {font-weight: 200;}
+.weight-reg {font-weight: 400;}
+.weight-med {font-weight: 500;}
+.weight-x-bold {font-weight: 800;}
+
+/* Height */
+.height-100 {min-height: 100vh;}
+.height-90 {min-height: 90vh;}
+.height-80 {min-height: 80vh;}

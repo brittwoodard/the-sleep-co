@@ -51,6 +51,19 @@ p {
     min-height: 10rem;
 }
 
+.bg-pug {
+    background-image: url(/images/sleep-co-dog.jpg);
+    background-size: cover;
+    min-height: 10rem;
+}
+
+.bg-pillow {
+    background-image: url(/images/sleep-co-yellow.jpg);
+    background-size: cover;
+    min-height: 10rem;
+    background-position: 50% 53%;
+}
+
 /* These are universal styles and utility classes */
 .padded {padding: 5%;}
 .padded-sm {padding: 1rem;}
@@ -60,12 +73,18 @@ p {
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 
+.small-text {font-size: 1.5rem;}
+.big-text {
+    font-size: 4rem;
+    line-height: 1.2em;}
+
 .bg-dark {
     background-color: #192637;
     color: white;
 }
 
 .featured-text {color: #FFBE00;}
+.white-text {color: white;}
 
 .weight-x-light {font-weight: 200;}
 .weight-reg {font-weight: 400;}
@@ -76,3 +95,4 @@ p {
 .height-100 {min-height: 100vh;}
 .height-90 {min-height: 90vh;}
 .height-80 {min-height: 80vh;}
+.height-70 {min-height: 70vh;}

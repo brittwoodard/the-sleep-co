@@ -67,6 +67,7 @@ p {
 /* These are universal styles and utility classes */
 .padded {padding: 5%;}
 .padded-sm {padding: 1rem;}
+.padded-10 {padding: 10%}
 
 /* Text classes */
 .text-left {text-align: left;}
@@ -74,9 +75,23 @@ p {
 .text-right {text-align: right;}
 
 .small-text {font-size: 1.5rem;}
+.med-text {font-size: 2rem;}
 .big-text {
     font-size: 4rem;
-    line-height: 1.2em;}
+    line-height: 1.2em;
+}
+
+.subtitle {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.quote-icon {
+    color: grey;
+    display: inline-block;
+    font-size: 6rem;
+    line-height: 1;
+}
 
 .bg-dark {
     background-color: #192637;

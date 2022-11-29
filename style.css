@@ -23,7 +23,7 @@ html {
 .padded-sm {padding: 1rem;}
 
 .bg-image {
-    color: rgb(187, 187, 209);
+    background-color: rgb(128, 128, 165);
     background-size: cover;
     min-height: 10rem;
 }

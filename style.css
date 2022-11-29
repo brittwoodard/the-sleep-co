@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Temporary Styles */
+* {
+    padding: 0.5rem;
+    border: 1px solid grey;
+}
+
+body {
+    border: none;
+}
+
+html {
+    border: none;
+}

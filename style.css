@@ -42,7 +42,21 @@ html {
 .uppercase {text-transform: uppercase;}
 
 .featured-text {color: #ffbe00;}
+.white-text {color: white;}
 
+h2 {
+    font-size: 3.5rem;
+    text-transform: lowercase;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+p:last-child {margin-bottom: 0;}
 
 /* Universal Styles & Classes */
 .padded {padding: 5%;}
@@ -62,9 +76,20 @@ html {
     background-color: #192b3734;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 50vh;
 }
 
 .image-bed {
     background-image: url('/images/the-sleep-co-4.jpg');
+    background-position: 50% 47%;
+}
+
+.image-lamp {
+    background-image: url('/images/the-sleep-co-3.jpg');
+    background-position: 70% 50%;
+}
+
+.image-pug {
+    background-image: url('/images/the-sleep-co-1.jpg');
     background-position: 50% 47%;
 }

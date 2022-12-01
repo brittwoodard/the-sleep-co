@@ -50,8 +50,13 @@ html {
     text-align: center;
     font-size: 4rem;
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
+
+[class*="col-"], [class*="col_"], [class~="col"] {
+    padding: 0;
+  }
+
 
 h2 {
     font-size: 3.5rem;
@@ -96,7 +101,6 @@ p:last-child {margin-bottom: 0;}
     background-color: #192b3734;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 50vh;
 }
 
 .image-bed {
@@ -107,11 +111,13 @@ p:last-child {margin-bottom: 0;}
 .image-lamp {
     background-image: url('/images/the-sleep-co-3.jpg');
     background-position: 70% 50%;
+    min-height: 50vh;
 }
 
 .image-pug {
     background-image: url('/images/the-sleep-co-1.jpg');
-    background-position: 50% 47%;
+    background-position: 50% 40%;
+    min-height: 50vh;
 }
 
 .image-pillow {

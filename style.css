@@ -76,6 +76,15 @@ p {
     margin-bottom: 1rem;
 }
 
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffbe00;
+}
+
 p:last-child {margin-bottom: 0;}
 
 /* Universal Styles & Classes */

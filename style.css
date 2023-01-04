@@ -162,3 +162,15 @@ p:last-child {margin-bottom: 0;}
 
     .sm-right {text-align: right;}
 }
+
+/* XS Media Query */
+@media (max-width: 36em) {
+    header h3 {font-size: 4rem;}
+    header h2 {font-size: 2rem;}
+    h3 {font-size: 2rem;}
+
+    .xs-center {text-align: center;}
+    .xs-hide {display: none;}
+    .xs-margin-b-2 {margin-bottom: 2em;}
+    .xs-left {text-align: left;}
+}
